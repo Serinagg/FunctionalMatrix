@@ -75,7 +75,6 @@ vector <vector <char> > initializeMatrix(int rows, int columns, char value)
 **/
 void printMatrix(vector <vector <char> > matrix)
 {
-        cout<<"===MATRIX===\n";
         for (int row = 0; row < matrix.size(); row++)
         {
                 for(int col = 0; col < matrix[row].size(); col++)
